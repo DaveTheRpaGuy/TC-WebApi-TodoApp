@@ -3,6 +3,6 @@
 as
 begin
 	select Id, Task, AssignedTo, IsComplete
-	from dbo.TodoDb
+	from dbo.Todos
 	where AssignedTo = @AssignedTo;
 end
